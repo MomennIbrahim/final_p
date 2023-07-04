@@ -1,3 +1,4 @@
+import 'package:final_project/drawer_screen.dart';
 import 'package:final_project/notification_screen.dart';
 import 'package:final_project/personal_info.dart';
 import 'package:final_project/profile_screen.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomeScreen(),
+      home: const DrawerScreen(),
     );
   }
 }
